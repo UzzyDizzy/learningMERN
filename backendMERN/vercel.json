@@ -5,6 +5,12 @@
         "src": "backendMERN/index.js",
         "use": "@vercel/node"
       }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "backendMERN/index.js"
+      }
     ]
-  }
+}
   
