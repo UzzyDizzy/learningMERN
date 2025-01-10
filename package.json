@@ -1,5 +1,14 @@
 {
+  "name": "backendmern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "serverless-http": "^3.2.0"
+    "express": "^4.21.2"
   }
 }
